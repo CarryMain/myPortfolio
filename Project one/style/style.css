@@ -4,7 +4,7 @@
 }
 
 body {
-    min-height: 100svh;
+    max-height: 100svh;
     min-width: 100svw;
     background-color: black;
     margin: 0 auto;
@@ -171,6 +171,25 @@ main .collection {
     text-align: center;
 }
 
+/* contacts */
+
+body .contacts {
+    margin: 200px 50px;
+    color: black;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+.contacts > h2 {
+    text-align: center;
+    font-size: 4em;
+}
+
+.icon-contacts {
+    display: flex;
+    justify-content: center;
+    padding-top: 8%;
+}
 
 /* footer */
 
